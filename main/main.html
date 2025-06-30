@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <a href="#sobre" class="nav-btn" data-tab="sobre">Sobre</a>
+      <a href="#formacao" class="nav-btn" data-tab="formacao">Formação</a>
+      <a href="#portfolio" class="nav-btn" data-tab="portfolio">Portfolio</a>
+      <a href="#contato" class="nav-btn" data-tab="contato">Contato</a>
+    </div>
+    <div class="content">
+      <div id="sobre" class="tab-content active">
+        <div class="profile-section">
+          <div class="person-img">
+            <img src="/imgs/eu.png" alt="Minha foto" />
+          </div>
+          <div class="about-text">
+            <h2>Olá!</h2>
+            <p>
+              Meu nome é José, sou um entusiasta da tecnologia com especialidade
+              em back-end. Atualmente trabalho como desenvolvedor, onde posso unir
+              minha paixão por inovação com minha curiosidade natural por aprender
+              coisas novas.
+            </p>
+            <p>Quando não estou trabalhando, você me encontra:
+              <ul>
+                <li>Assistindo filmes</li>
+                <li>Praticando esportes</li>
+                <li>Estudando</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="formacao" class="tab-content">
+        <h1 class="formacao-title">Minha Jornada Acadêmica</h1>
+        
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Graduação em Análise e Desenvolvimento de Sistemas</h3>
+              <span class="timeline-date">2024 - </span>
+              <p>Uninter - Em Andamento</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Curso Técnico em Informática</h3>
+              <span class="timeline-date">2022 - 2023</span>
+              <p>Uninter - Completo</p>
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="cursos-complementares">
+          <h3><i class="fas fa-certificate"></i> Tecnologias Complementares</h3>
+          <ul>
+            <li>C#</li>
+            <li>Java</li>
+            <li>Angular</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>Jquery</li>
+            <li>TypeScript</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>HANASQL</li>
+          </ul>
+        </div>
+      </div>
+      <div id="portfolio" class="tab-content">
+        <h1 class="portfolio-title">Meus Projetos</h1>
+        
+        <div class="simple-cards">
+
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3>Sistema para Lavanderia Industrial</h3>
+            <p>Sistema para controle de envio de enxovais para clientes, com tecnologia RFID e código de barras.</p>
+            <div class="tech-used">
+              <h4>Tecnologias utilizadas:</h4>
+              <ul class="tech-list">
+                <li>HTML/CSS</li>
+                <li>C#</li>
+                <li>SQL</li>
+                <li>Jquery/JS</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3>CRM de Tarefas</h3>
+            <p>Site para gerenciamento de tarefas entre equipe.</p>
+            <div class="tech-used">
+              <h4>Tecnologias utilizadas:</h4>
+              <ul class="tech-list">
+                <li>HTML/CSS</li>
+                <li>C#</li>
+                <li>SQL</li>
+                <li>Angular</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="fas fa-gamepad"></i>
+            </div>
+            <h3>Controle de Estoque</h3>
+            <p>Sistema para controle de estoque de produtos.</p>
+            <div class="tech-used">
+              <h4>Tecnologias utilizadas:</h4>
+              <ul class="tech-list">
+                <li>HTML/CSS</li>
+                <li>C#</li>
+                <li>SQL</li>
+                <li>Angular</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contato" class="tab-content">
+        <h1 class="contact-title">Vamos Conversar!</h1>
+        
+        <div class="contact-container">
+          <!-- Formulário -->
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Nome</label>
+              <input type="text" id="name" placeholder="Seu nome completo" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" placeholder="seu@email.com" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Assunto</label>
+              <input type="text" id="subject" placeholder="Sobre o que deseja falar?">
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Mensagem</label>
+              <textarea id="message" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">Enviar Mensagem</button>
+          </form>
+          
+          <div class="contact-info">
+            <div class="info-card">
+              <i class="fas fa-envelope"></i>
+              <h3>E-mail</h3>
+              <p>joseih2010@hotmail.com</p>
+            </div>
+            
+            
+            <div class="info-card">
+              <i class="fab fa-github"></i>
+              <h3>GitHub</h3>
+              <a href="#" target="_blank">https://github.com/joseih</a>
+            </div>
+            
+            <div class="info-card">
+              <i class="fab fa-whatsapp"></i>
+              <h3>WhatsApp</h3>
+              <a href="https://wa.me/5511999999999" target="_blank">(41) 98799-9200</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
